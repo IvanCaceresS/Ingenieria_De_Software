@@ -1,0 +1,110 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1a1a1a;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center; /* Centrar verticalmente */
+	justify-content: center; /* Centrar horizontalmente */
+	min-height: 1%; /* Establecer altura mínima de la página */
+}
+
+
+.form {
+  width: 40%;
+  margin: 10% auto;
+  padding: 5%;
+  background-color: #333333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form--signup {
+  text-align: center;
+  justify-content: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+  color: #999999;
+}
+
+.input {
+  display: block;
+  width: 96%;
+  padding: 2% 3% 2% 6%;
+  margin-bottom: 5%;
+  border: 1px solid #555555;
+  border-radius: 3px;
+  font-size: 0.8em;
+  color: #ffffff;
+  background-color: #444444;
+}
+
+.input--top {
+  margin-top: 0;
+}
+
+.input--submit {
+background-color: #750d37;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+padding: 2% 6%;
+font-size: 1em;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+}
+
+.input--submit:hover {
+background-color: #750d37;
+}
+
+.error-msg {
+color: #cccccc;
+font-weight: bold;
+font-size: 0.8em;
+visibility: visible;
+margin-bottom: 5%;
+}
+
+.admin-icon {
+font-size: 3em;
+color: #e74c3c;
+margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+.form {
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 480px) {
+.form {
+    width: 90%;
+}
+}
+
+.logo-container {
+    position: absolute;
+    top: -50px; /* Ajusta la posición vertical del logo según tus necesidades */
+    left: 50%; /* Ajusta la posición horizontal del logo según tus necesidades */
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logo-img {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    border-radius: 50%; /* Agrega bordes redondeados al logo si lo deseas */
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+.body-profile1 {
+    background-color: #750D37;
+    width: 30%;
+    margin-left: 25%;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 1%;
+    background-image: linear-gradient(-210deg,#d5c7bc 50%, #750d37 50%);
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 243, 243, 0.5);
+    color: black;
+    margin-top: 1%;
+}
+
+.cuerpo form{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.cuerpo h2{
+    color: black;
+}
+
+
+.panel-close {
+    cursor: pointer;
+}
+
+.cuerpo{
+    margin: 0;
+}
+.cuerpo input {
+    width: 40%;
+    padding-top: 4%;
+    padding-bottom: 4.6%;
+    height: 10%;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    margin-right: -30px;
+    margin-left: -20px;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear; 
+}
+
+.cuerpo span {
+    background: #fff;
+    color: #333;
+    padding-left: 2%;
+    border-radius: 5px 0px 0px 5px;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 4.5%;
+    height: 8%;
+    margin: 0;
+}
+
+.container-botones {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -24%; 
+}
+
+.container-botones button {
+    margin: 0 5px;
+}
+
+.container-input {
+    position: relative;
+    left: 24%;   
+}
+
+.container-input .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-input .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.container-input .input-container span {
+    margin-right: 10px;
+}
+
+.container-input .input-container input {
+    width: 100%;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: none;
+}
+
+.dropdown-menu .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.dropdown-menu .menu-item i {
+    margin-right: 10px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f5f5f5;
+}
+
+header.head-form {
+    text-align: center;
+}
+/* Login title form form */
+header.head-form h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+/*  A welcome message or an explanation of the login form */
+header.head-form p {letter-spacing: 0.05em; color: black; font-weight: 200;}
+
+button.login-boton {
+    display: inline-block;
+    color: black;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+/* Submits */
+.submits {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+/*     Sign Up button  */
+.sign-up {background: whitesmoke;}
+
+/* buttons hover */
+button.login-boton :hover {
+    transform: translatey(3px);
+    box-shadow: rgb(0, 0, 0);
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+
+.inventory-table {
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th{
+    padding: 10px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+thead {
+    background-color: #750d37;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tbody tr:hover {
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
